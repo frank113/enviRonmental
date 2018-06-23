@@ -13,7 +13,8 @@ Description: This package attempts to simplify the interface to R environments.
 Imports:
   readr,
   readxl,
-  jsonlite
+  jsonlite,
+  stringr
 Depends: R (>= 3.2.0)
 License: MIT
 Encoding: UTF-8

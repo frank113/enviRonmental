@@ -8,4 +8,6 @@
 # OS X Files
 .DS_Store
 
-
+# Temp files
+testing.R
+test.json
