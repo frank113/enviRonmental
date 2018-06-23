@@ -1,0 +1,22 @@
+Package: enviRonmental
+Title: Interface to the creation, saving and loading of R environments. 
+Version: 0.1.0
+Authors@R: c(person(given="Frank", family="Kovacs", 
+  role=c("aut", "cre"), email="fkovacs@andrew.cmu.edu"))
+Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
+Repository: CRAN
+Description: This package attempts to simplify the interface to R environments. 
+    In functionalizing many of the interactions with R environments, the 
+    task of manipulating and modifying environments can be contained to 
+    simple function calls. R environments may also be loaded from atypical file
+    formats. 
+Imports:
+  readr,
+  readxl,
+  jsonlite
+Depends: R (>= 3.2.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+

@@ -1,0 +1,11 @@
+# R Files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# OS X Files
+.DS_Store
+
+
