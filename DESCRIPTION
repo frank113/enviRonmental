@@ -2,7 +2,11 @@ Package: enviRonmental
 Title: Interface to the creation, saving and loading of R environments. 
 Version: 0.1.0
 Authors@R: c(person(given="Frank", family="Kovacs", 
-  role=c("aut", "cre"), email="fkovacs@andrew.cmu.edu"))
+  role=c("aut", "cre"), email="fkovacs@andrew.cmu.edu"),
+  person(given="Noni", family="Shelton", 
+  role=c("ctb"), email="nshelton@andrew.cmu.edu", 
+  comment = "Resident of Mudge House who created the 'environmintal' pun for 
+  the final presentation for 36-751: Advanced Statistical Computing"))
 Maintainer: Frank Kovacs <fkovacs@andrew.cmu.edu>
 Repository: CRAN
 Description: This package attempts to simplify the interface to R environments. 
@@ -20,4 +24,4 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-
+Suggests: testthat

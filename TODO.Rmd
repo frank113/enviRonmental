@@ -1,0 +1,38 @@
+---
+title: "TODO"
+author: "Frank Kovacs"
+date: "2/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+# Functions
+
++ New Environment Wrapper
++ Add to Environment
++ Remove from Environment
++ Call from Environment (without loading the function)
++ Load from Environment (copy data from one envir to other)
++ Load as global (import all objs into global)
++ Switch (x <--> y)
++ Load environment from file
+
+
+# Notes
+
+loadNamespace() loads an environment
+
+THINKING: Multiple windows open -- hard to keep track of. When you load a project you load the environment and associate each with an environment (or session) that includes pacakges, etc.

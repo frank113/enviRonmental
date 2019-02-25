@@ -55,7 +55,8 @@ jsonEnv <- function(json, global = TRUE) {
   }
   
   if ( global ) {
-    return(NULL)
+    message("Placed variables in environment.")
+    return()
   }
   return(tmp.envr)
 }
